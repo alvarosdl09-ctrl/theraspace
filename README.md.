@@ -1,0 +1,33 @@
+# 🧠 TheraSpace - Plataforma SaaS de Terapia Interativa
+
+> MVP desenvolvido para sessões psicoterapêuticas remotas em tempo real, combinando recursos lúdicos (Sand Tray) e sincronização multiusuário de alta performance.
+
+---
+
+## 🚀 Sobre o Projeto
+O **TheraSpace** foi concebido para atender psicólogos infantis e terapeutas que precisam de um ambiente digital interativo para consultas à distância. O sistema permite que o profissional utilize um quadro lúdico virtual onde elementos gráficos são manipulados e refletidos instantaneamente na tela do paciente, sem exigir login ou fricção para o usuário final.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+* **Frontend:** React.js, Vite, Tailwind CSS
+* **Manipulação de Gráficos (Canvas):** Konva.js / React-Konva
+* **Backend & Tempo Real (WebSockets):** Supabase (PostgreSQL & Realtime Channels)
+* **Arquitetura Mobile:** PWA (Progressive Web App)
+
+---
+
+## ⚙️ Principais Funcionalidades
+1. **Sand Tray em Tempo Real:** Sincronização imediata de posições de objetos em tela compartilhada através de WebSockets.
+2. **Painel do Terapeuta:** Gestão de sessões e geração de links de acesso rápido.
+3. **Arquitetura Escalável e Leve:** Foco em baixo custo de infraestrutura e alta responsividade mobile.
+
+---
+
+## 📂 Estrutura do Repositório
+* `src/TherapyCanvas.jsx` — Componente principal do Canvas com listener de eventos em tempo real.
+* `src/App.jsx` — Estruturação do layout e controle de rotas do MVP.
+* `package.json` — Gerenciamento de dependências e scripts de build.
+
+---
+*Desenvolvido para portfólio profissional.*
